@@ -103,6 +103,7 @@ const Giphy = () => {
                 <input onChange={handelSearchChange} value={search} type="text" placeholder='Search' className='form-control' />
                 <button onClick={handelSubmit} type='submit' className='btn btn-primary mx-2'><i className="fas fa-search"></i></button>
             </form>
+            <h3 style={{marginLeft: '200px', color: 'white'}}>Trending Gifs</h3>
             <div className='gifs'>{renderGifs()}</div>
             <div className=''>
             <Pagination pageSelected={pageSelected} currentPage={currentPage} itemsPerPage={itemsPerPage} totalItems={data.length} />

@@ -30,7 +30,9 @@ form.form-inline.justify-content-center.m-2 {
 
 input.form-control {
   width: 90%;
-  height: 30px;
+  height: 34px;
+  border: none;
+  outline: none;
 }
 
 button.btn.btn-primary.mx-2 {
@@ -61,42 +63,13 @@ h2.Giphy {
   width: 100px;
 }
 
-
-.nextBtn {
-  border-radius: 4px;
-  background-color: #f4511e;
+.btn {
+  width: 50px;
+  height: 30px;
+  padding: 5px 8px;
+  cursor: pointer;
+  background-color: #39d2e3;
+  color: #212f32;
   border: none;
-  color: #FFFFFF;
-  text-align: center;
-  font-size: 28px;
-  padding: 20px;
-  width: 100px;
-  transition: all 0.5s;
-  cursor: pointer;
-  margin: 5px;
-}
-
-.nextBtn span {
-  cursor: pointer;
-  display: inline-block;
-  position: relative;
-  transition: 0.5s;
-}
-
-.nextBtn span:after {
-  content: '\00bb';
-  position: absolute;
-  opacity: 0;
-  top: 0;
-  right: -20px;
-  transition: 0.5s;
-}
-
-.nextBtn:hover span {
-  padding-right: 25px;
-}
-
-.nextBtn:hover span:after {
-  opacity: 1;
-  right: 0;
+  outline: none;
 }
