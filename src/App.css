@@ -1,0 +1,62 @@
+body {
+  background-color: #212f32;
+}
+
+.gifs {
+  margin: 0 auto;
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  /* background-color: white; */
+}
+
+.gif {
+  padding: 2px 2px;
+}
+
+.loader {
+  color: blue;
+}
+
+form.form-inline.justify-content-center.m-2 {
+  justify-content: center;
+  margin: auto;
+  width: 70%;
+  display: block;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+input.form-control {
+  width: 90%;
+  height: 30px;
+}
+
+button.btn.btn-primary.mx-2 {
+  width: 5%;
+  height: 36px;
+}
+
+
+ul.ul-class {
+  justify-content: center;
+  margin: auto;
+  width: 70%;
+  display: block;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+ul.ul-class li {
+  margin-right: 6px;
+}
+
+h2.Giphy {
+  color: #fff;
+  text-align: center;
+}
+
+.main-root hr {
+  width: 100px;
+}
