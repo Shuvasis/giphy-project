@@ -54,7 +54,7 @@ const Giphy = () => {
                 </div>
             )
         })
-    }
+    }  
 
     const renderError = () => {
         if (isError) {
