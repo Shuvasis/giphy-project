@@ -13,7 +13,7 @@ const Pagination = (props) => {
                 {pageNumbers.map((number, index) => {
                     return(
                         <li style={{color: 'white'}} key={index}>
-                            <button onClick={() => props.pageSelected(number)} href='!#'>{number}</button>
+                            <button className='nextBtn' onClick={() => props.pageSelected(number)} href='!#'><span>{number}</span></button>
                         </li>
                     )
                 })}
