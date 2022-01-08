@@ -68,7 +68,7 @@ const Giphy = () => {
         setSearch(event.target.value);
     }
 
-    const handelSubmit = async event => {
+    const handelSubmit = async (event) => {
         event.preventDefault();
         setIsError(false)
         setIsloading(true);
